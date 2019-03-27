@@ -1,11 +1,12 @@
+from helloworld import batman
+from helloworld.batman import how
 
 
-run = True
-current =  1
+print(batman.assets - 5)
 
-while run:
-    if current == 100:
-        run = False
-    else:
-        print(current)
-        current += 1
+how()
+
+batman.how()
+
+for i in batman.robins:
+    print(i)
